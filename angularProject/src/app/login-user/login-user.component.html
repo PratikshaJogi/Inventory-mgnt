@@ -1,0 +1,14 @@
+<h1>{{message}}</h1>
+<form #form="ngForm" (ngSubmit) = "loginCustomer(form)">
+    <div class="form-control p-2">
+        <label for="customerId">User Name</label>
+        <input type="text" name="customerId" id="customerId" [(ngModel)]= "id">
+    </div>
+    <div class="form-control p-2">
+        <label for="customerpPass"> Password</label>
+        <input type="password" name="customerPass" id="customerPass" [(ngModel)]= "password">
+    </div>
+    <div class="text-center p-2">
+        <input type="submit" value="LOGIN">
+    </div>
+</form>

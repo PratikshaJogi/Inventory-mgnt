@@ -1,0 +1,26 @@
+.navbar-brand
+{color: gold;
+font-size: 30px;
+font:bold;
+text-shadow: darkgoldenrod;
+text-align: justify;
+}
+.navbar
+{
+    background-color: rgb(158, 20, 158);
+}
+
+.navbar-light .navbar-nav .nav-link:hover
+{
+    text-decoration: underline;
+    color:rgb(217, 255, 0);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+  margin-left: 18px;
+  padding: 10px 20px;
+  font:bold;
+    
+
+}
